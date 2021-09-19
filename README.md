@@ -2,12 +2,19 @@
   <img src="https://github.com/ciseng/gender-decoder-frontend/blob/master/src/Components/addJob/equality-people.png" alt="Gender-Decoder-App logo" width=320px/>
 </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This is a simple app example for Year 2 projects in Computer Science, implementing the front-end of the Gender-Decoder-App using React.
 It requires the back-end that was written for the Gender-Decoder-App, and provided in the labs.  
 
 The original [Gender-Decoder App]( http://gender-decoder.katmatfield.com/) is written in python and also published as a [GitHub repository](https://github.com/lovedaybrooke/gender-decoder). This tool was inspired by [a research paper](http://gender-decoder.katmatfield.com/static/documents/Gaucher-Friesen-Kay-JPSP-Gendered-Wording-in-Job-ads.pdf) written by Danielle Gaucher, Justin Friesen, and Aaron C. Kay, Evidence That Gendered Wording in Job Advertisements Exists and Sustains Gender Inequality (Journal of Personality and Social Psychology, July 2011, Vol 101(1), p109-28).
+
+# Backend
+The backend was written using the Spring Boot Framework, and expects to access a MySQL database as defined in the application.properties file.
+This file needs to be modified with correct database credentials for the back-end to work. 
+
+# Frontend
+
+The front-end part of the project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
